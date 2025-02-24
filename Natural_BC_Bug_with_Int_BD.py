@@ -226,6 +226,9 @@ if uw.mpi.rank == 0:
 
 # ### Plot parallel model data
 
+# Run this command `mpirun -np 2 python Natural_BC_Bug_with_Int_BD.py`
+# to get parallel output and then load them.
+
 # +
 reload = True
 cpus = 2
