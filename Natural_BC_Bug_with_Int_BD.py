@@ -69,7 +69,7 @@ else:
 
 # creating mesh
 if uw.mpi.size == 1 and not os.path.isfile(mesh_fname):
-    with open("create_natural_bc_mesh.py") as f:
+    with open("Create_natural_bc_int_bd_mesh.py") as f:
         code = f.read()
     
     exec(code, globals())
